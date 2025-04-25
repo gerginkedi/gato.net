@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ffffff; /* Modern beyaz arka plan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Ortadaki yazı */
+  .centered-text {
+    font-size: 1000px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #000000;
+  }
