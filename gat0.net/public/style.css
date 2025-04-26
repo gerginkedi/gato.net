@@ -1,18 +1,38 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #ffffff; /* Modern beyaz arka plan */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  
-  /* Ortadaki yazı */
-  .centered-text {
-    font-size: 1000px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    color: #000000;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 0;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
+
+p {
+  color: #aaa;
+  font-size: 14px;
+}
